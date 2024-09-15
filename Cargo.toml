@@ -1,0 +1,9 @@
+[package]
+name = "redis-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.59"                                   # error handling
+clap = { version = "4.5.16", features = ["derive"] } # error handling
+tokio = { version = "1.23.0", features = ["full"] } # async networking
